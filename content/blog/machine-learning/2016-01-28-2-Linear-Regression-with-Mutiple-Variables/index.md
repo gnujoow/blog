@@ -47,9 +47,9 @@ h_\theta(x) =
 \theta_0 \hspace{2em}  \theta_1 \hspace{2em}  ...  \hspace{2em}  \theta_n
 \end{bmatrix}
 \begin{bmatrix}
-x_0 \newline
-x_1 \newline
-\vdots \newline
+x_0 \\
+x_1 \\
+\vdots \\
 x_n
 \end{bmatrix}
 = \theta^T x
