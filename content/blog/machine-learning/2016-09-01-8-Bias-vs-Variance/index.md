@@ -38,8 +38,8 @@ polynomial degree에 따른 error를 그래프로 나타내보자.
 
 | **Underfitting** <br> (High bais) | **Overfitting**  <br> (High variance) |
 |:----------------------------------|:--------------------------------------|
-| \\(J_{train} (\Theta)\\)와 \\(J_{CV}(\Theta)\\) 의 값이 크다. | \\(J_{train} (\Theta)\\)의 값은 작다.  |
-| \\(J_{CV}(\Theta) \approx J_{train} (\Theta)\\) | \\(J_{CV}(\Theta) \>\> J_{train}(\Theta)\\) |
+| $J_{train} (\Theta)$와 $J_{CV}(\Theta)$ 의 값이 크다. | $J_{train} (\Theta)$의 값은 작다.  |
+| $J_{CV}(\Theta) \approx J_{train} (\Theta)$ | $J_{CV}(\Theta) \>\> J_{train}(\Theta)$ |
 
 위 그림에서와 같이 그래프의 왼쪽 끝처럼 cross validation error의 값과 training error의 값이 크면서 그 차이가 크지 않을 때 High bais problem이 있다고 평가 할 수 있다. 그리고 그래프의 오른쪽 끝처럼 cross validation error의 크기는 큰데 training error의 크기는 작으면서 둘의 크기가 매우 클 때 High varience problem이 있다고 평가 할 수 있다.
 

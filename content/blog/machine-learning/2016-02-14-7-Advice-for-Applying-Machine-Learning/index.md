@@ -20,9 +20,9 @@ linear regression을 처음 배웠을 때를 생각해보자. linear regression�
  - training example을 더 얻는다 / 더 많은 데이터를 알고리즘을 학습시키는데 사용한다.
  - 데이터의 더 적은 특징들을 사용해본다.
  - 데이터의 특징을 더 사용해본다.
- - polynomial 한 특징들을 사용해본다. \\((x^2 등등)\\)
- - \\(\lambda\\)를 크게 해본다.
- - \\(\lambda\\)를 작게 해본다.
+ - polynomial 한 특징들을 사용해본다. $(x^2 등등)$
+ - $\lambda$를 크게 해본다.
+ - $\lambda$를 작게 해본다.
 
 위 항목들중에 아무거나 골라서 사용하는것이 아니라 Machine Learning Diagnostic를 통해서 적절한 조치를 취한다.
 
@@ -48,11 +48,9 @@ linear regression에서 특징이 하나인 경우 대충 계산을 해서 우�
 
 그리고 **test set error** 를 계산한다. test set error계산하는 데이터셋은 위에서 선택한 70%의 데이터를 제외한 30%의 데이터로 구한다.
 
-<div>
-$
+$$
 J_{test}(\Theta) = \dfrac{1}{2m_{test}} \sum_{i=1}^{m_{test}}(h_\Theta(x^{(i)}_{test}) - y^{(i)}_{test})^2
-$
-</div>
+$$
 
 ### classification 에서 테스트
 
@@ -60,31 +58,25 @@ classification 문제에 사용되는 logistic regression 알고리즘의 테스
 
 linear regression과 비슷하게 전체 데이터중 랜덤하게 뽑은 70%의 데이터를 이용하여 알고리즘을 학습시키고 나머지 30%의 데이터로 **Misclassification error** 를 구한다. Misclassification error는 말 그대로 얼마나 잘 못 구한것인지를 구하는것이다.
 
-<div>
-$
+$$
 err(h_\Theta(x),y) =
-\begin{matrix}
-1 & \mbox{if } h_\Theta(x) \geq 0.5\ and\ y = 0\ or\ h_\Theta(x) < 0.5\ and\ y = 1\newline
-0 & \mbox otherwise
-\end{matrix}
-$
-</div>
+\begin{pmatrix}
+1 & h_\Theta(x) \geq 0.5\ and\ y = 0\ or\ h_\Theta(x) < 0.5\ and\ y = 1 \\
+0 & otherwise
+\end{pmatrix}
+$$
 
 위와 같이 가설함수의 값이 0.5보다 큰데 0으로 분류되고, 가설함수의 값이  0.5 보다 작은데 1로 분류된 경우 1을 반환하고 잘 분류 된 경우에는 0을 반환한다.
 
 그리고 이 에러에 대한 평균은 다음과 같이 구한다.
 
-
-<div>
-$
+$$
 \text{Test Error} = \dfrac{1}{m_{test}} \sum^{m_{test}}_{i=1} err(h_\Theta(x^{(i)}_{test}), y^{(i)}_{test})
-$
-</div>
-
+$$
 
 ## Model Selection and Train/Validation/Test Sets
 
-알고리즘을 선택하기 없어 가설함수를 몇차(**polynomial**)로 표현할 것인지, 어떤 **특징** 들을 알고리즘을 학습시키는데 사용할 것인지 regularization을 할 때 \\(\lambda\\)값을 어떤걸 선택할지 결정해야 할 때 어떻게 해야할까? 이러한 문제는 **Model selection problem** 라고 한다.
+알고리즘을 선택하기 없어 가설함수를 몇차(**polynomial**)로 표현할 것인지, 어떤 **특징** 들을 알고리즘을 학습시키는데 사용할 것인지 regularization을 할 때 $\lambda$값을 어떤걸 선택할지 결정해야 할 때 어떻게 해야할까? 이러한 문제는 **Model selection problem** 라고 한다.
 데이터를 train set과 test set으로 나누는 법과 train, validation, test sets으로 바꾸는 법도 알아보자. (맞는표현인지 모르겠다. 영알못...)
 
 이전 포스팅에서도 많이 다뤘지만 가설함수(hypothesis function)이 training set에 대해서 너무 잘 표현된다면 overfitting이 일어난다는 것을 알고 있다. 이는 새롭게 추가되는 데이터에 대해서 가설함수가 제대로 적용되지 않기 때문이다.
@@ -101,16 +93,15 @@ $
 
  - **d** : 최고차항의 차수
 
-
 ![예1](./0.png)
 
 각 **d** 에 대 테스트를 수행하고 이들중 하나를 고른다고 하자.
 가장 먼저 할 일은 첫번째 모델을 고르고 training 에러를 최소화하는 hypothesis를 구한다.
-그리고 **각 \\(\theta\\)의 모임을 벡터\\(\Theta\\)라고 하자.**
-d에 대한각각의 \\(\Theta\\)를 구분하기 위해 윗첨차로 (d)를 적는다. 그 다음에는 각 \\(\Theta\\)에 대해여 **test set error** 를 구한다.
+그리고 **각 $\theta$의 모임을 벡터$\Theta$라고 하자.**
+d에 대한각각의 $\Theta$를 구분하기 위해 윗첨차로 (d)를 적는다. 그 다음에는 각 $\Theta$에 대해여 **test set error** 를 구한다.
 
 그리고 이 중 test set error가 가장 적은 모델을 사용하면 된다.
-<del>결론을 말하자면 검증이 안된 모델이라 사용하는 것에 대해서 고려를 해봐야한다</del>
+결론을 말하자면 검증이 안된 모델이라 사용하는 것에 대해서 고려를 해봐야한다.
 
 그결과 **d=5** 인 hypothesis가 에러가 가장 적다고하자. 과연 이 모델이 일반적이 데이터 셋에 대해서도 에러가 적을까?
 
@@ -131,9 +122,9 @@ polynomial hypothesis를 선택 할 때, d에 대한 테스트 에러가 적은�
 
 ### Validation set를 사용하여 테스트
 
- 1. polynomial degree **d** 에 대해서 training set을 이용하여 \\(\Theta\\)를 최적화한다.
+ 1. polynomial degree **d** 에 대해서 training set을 이용하여 $\Theta$를 최적화한다.
  2. **cross validation set** 을 이용하여 **d** 에 대한 에러를 구한다. 그리고 에러가 가장 작은 polynomial모델 표현을 찾는다.
- 3. \\(J_{test}(\Theta^{(d)})\\)를 이용하여 일반화 오류를 예측한다.
+ 3. $J_{test}(\Theta^{(d)})$를 이용하여 일반화 오류를 예측한다.
 
 
 ---
