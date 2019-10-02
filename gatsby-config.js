@@ -3,6 +3,7 @@ module.exports = {
     title: `김로그`,
     author: `gnujoow`,
     description: `today i learn.`,
+    siteUrl: `https://www.example.com`,
     social: {
       twitter: `gnujoow`,
       github: `gnujoow`,
