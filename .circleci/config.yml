@@ -3,6 +3,10 @@
 # Check https://circleci.com/docs/2.0/language-javascript/ for more details
 #
 version: 2
+
+orbs:
+  aws-s3: circleci/aws-s3@1.0.11
+
 jobs:
   build:
     docker:
@@ -21,11 +25,19 @@ jobs:
             - v1-dependencies-
 
       - run: yarn install
-      - run: yarn build
       - save_cache:
           paths:
             - node_modules
           key: v1-dependencies-{{ checksum "package.json" }}
-
+  
       # run tests!
       - run: yarn test
+      - run: yarn build
+      - aws-s3/sync:
+          from: public
+          to: 's3://kimlog.me'
+          aws-access-key-id: AWS_ACCESS_KEY_ID
+          aws-secret-access-key: AWS_SECRET_ACCESS_KEY
+          aws-region: AWS_REGION
+          overwrite: true
+      
