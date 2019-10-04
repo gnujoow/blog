@@ -11,7 +11,7 @@ jobs:
       - image: 'circleci/python:2.7'
 
     working_directory: ~/repo
-
+        
     steps:
       - checkout
 
@@ -33,7 +33,7 @@ jobs:
       - run: yarn build
       - aws-s3/sync:
           from: public
-          to: 's3://kimlog.me'
+          to: 's3://kimlog-content'
           aws-access-key-id: AWS_ACCESS_KEY_ID
           aws-secret-access-key: AWS_SECRET_ACCESS_KEY
           aws-region: AWS_REGION
