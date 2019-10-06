@@ -3,24 +3,39 @@ import theme from 'typography-theme-fairy-gates'
 import CodePlugin from 'typography-plugin-code'
 
 theme.plugins = [new CodePlugin()]
-theme.overrideThemeStyles = ({ rhythm }, options) => ({
-  'h1,h2,h3': {
-    color: '#fff',
-  },
-  'p': {
-    color: 'rgba(255, 255, 255, 0.87)'
-  },
-  'a': {
-    color: '#BB86FC',
-    'text-shadow': 'none',
-  },
-  'blockquote': {
-    color: '#fff',
-    background: '#2d2d2d',
-    padding: '1rem',
-    'border-radius': '3px',
-  },
-})
+theme.overrideThemeStyles = ({ rhythm }, options) => {
+  const primaryColor = "#bb86fc"
+  const secondaryColor = '#03dac5'
+  return {
+    'h1,h2,h3': {
+      color: 'rgba(255, 255, 255, 0.87)'
+    },
+    'p': {
+      color: 'rgba(255, 255, 255, 0.60)'
+    },
+    'a': {
+      color: primaryColor,
+      'text-shadow': 'none',
+      backgroundImage: `linear-gradient(to top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0) 1px, ${primaryColor} 1px, ${primaryColor} 2px, rgba(0, 0, 0, 0) 2px)`, // eslint-disable-line
+    },
+    'img': {
+      'background-color': 'rgba(255, 255, 255, 0.60)',
+      'border-radius': '3px',
+    },
+    'strong': {
+      color: 'rgba(255, 255, 255, 0.87)'
+    },
+    'blockquote': {
+      color: '#fff',
+      background: '#2d2d2d',
+      padding: '1rem',
+      'border-radius': '3px',
+    },
+    'hr': {
+      'background-color': secondaryColor,
+    }
+  }
+}
 
 const typography = new Typography(theme)
 
