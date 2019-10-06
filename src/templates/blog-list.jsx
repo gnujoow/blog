@@ -20,7 +20,7 @@ export default class BlogList extends React.Component {
           return (
             <article key={node.fields.slug}>
               <header>
-                <time datetime={node.frontmatter.date}>{node.frontmatter.date}</time>
+                <time dateTime={node.frontmatter.date}>{node.frontmatter.date}</time>
                 {" "}
                 <Link to={node.fields.slug}>
                   {title}
