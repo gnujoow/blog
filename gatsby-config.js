@@ -3,13 +3,14 @@ module.exports = {
     title: `김로그`,
     author: `gnujoow`,
     description: `today i learn.`,
-    siteUrl: `https://www.example.com`,
+    siteUrl: `https://kimlog.me/`,
     social: {
       twitter: `gnujoow`,
       github: `gnujoow`,
     },
   },
   plugins: [
+    `gatsby-plugin-sitemap`,
     {
       resolve: `gatsby-source-filesystem`,
       options: {
