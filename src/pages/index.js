@@ -21,6 +21,11 @@ class BlogIndex extends React.Component {
                 블로그
               </Link>
             </h3>
+            <h3>
+              <Link to='/about'>
+                About
+              </Link>
+            </h3>
           </header>
         </article>
       </Layout>
