@@ -2,7 +2,7 @@
 title: 1.Queue에 대해서 알아보자.
 date: "2016-08-24"
 category: [DS]
-tag: [DataStructure, Queue]
+tags: ["자료구조", "Queue"]
 description: 컴퓨터에서 자주 사용되는 자료구조인 Queue에 대해서 알아보자.
 ---
 

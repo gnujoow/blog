@@ -2,7 +2,7 @@
 title: 7. Class(1) constructor
 date: "2016-07-23"
 category: [C++]
-tag: [C++, class, object oriented,constructor, linkedlist]
+tags: ["c++", "class", "object oriented", "생성자", "linked list"]
 description:
 ---
 

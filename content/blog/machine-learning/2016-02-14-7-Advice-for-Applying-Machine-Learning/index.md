@@ -2,7 +2,7 @@
 title: 7.Advice for Applying Machine Learning
 date: "2016-02-14"
 category: [ML]
-tag: [Machine Learning,Diagnostic, Model Selection, Validation]
+tags: ["Machine Learning", "Diagnostic", "Model Selection", "Validation"]
 description: 머신러닝 알고리즘을 실제 문제에 적용할 때 고려할만한 요소에 대해서 알아보자.
 
 ---

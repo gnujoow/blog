@@ -2,7 +2,7 @@
 title: 2178번 미로 탐색
 date: "2016-10-15"
 category: [BOJ]
-tag: [BFS, 백준온라인저지]
+tags: ["bfs", "백준온라인저지"]
 ---
 
 [2178번 미로 탐색](https://www.acmicpc.net/problem/2178)

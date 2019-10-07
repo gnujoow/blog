@@ -2,7 +2,7 @@
 title: 3.Tree에 대해서 알아보자.
 date: "2016-08-27"
 category: [DS]
-tag: [DataStructure, Tree, 트리]
+tags: ["자료구조", "Tree", "트리"]
 description: 자료구조 트리와 그 표현에 대해서 알아보자.
 ---
 

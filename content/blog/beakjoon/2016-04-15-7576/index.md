@@ -2,7 +2,7 @@
 title: 7576번 토마토
 date: "2016-04-15"
 category: [BOJ]
-tag: [BFS, queue, c, 넓이우선탐색]
+tags: ["bfs", "queue", "넓이우선탐색"]
 ---
 
 [7576번 토마토](https://www.acmicpc.net/problem/7576)

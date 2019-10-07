@@ -2,7 +2,7 @@
 title: 4.Regularization
 date: "2016-07-05"
 category: [ML]
-tag: [Machine Learning, Supervised Learning,Overfitting, Linear Regression, Logistic Regression, Regularization]
+tags: ["Machine Learning", "Supervised Learning", "Overfitting", "Linear Regression", "Logistic Regression", "Regularization"]
 description: 정규화(regulariation)을 통해 과적합(overfitting)문제를 해결하는 방법에 대해서 알아보자.
 ---
 

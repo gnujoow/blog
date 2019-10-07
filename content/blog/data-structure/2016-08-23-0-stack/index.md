@@ -2,7 +2,7 @@
 title: 0.stack에 대해서 알아보자.
 date: "2016-08-23"
 category: [DS]
-tag: [DataStructure, stack]
+tags: ["자료구조", "stack"]
 description: 컴퓨터에서 자주 사용되는 자료구조인 stack에 대해서 알아보자.
 ---
 
