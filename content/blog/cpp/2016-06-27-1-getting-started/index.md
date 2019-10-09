@@ -2,7 +2,7 @@
 title: 1. Converting a C Program to C++
 date: "2016-06-27"
 category: [C++]
-tags: ["c++", "coursera"]
+tags: ["cpp", "coursera"]
 description: C프로그램을 C++로 변환해보자.
 ---
 

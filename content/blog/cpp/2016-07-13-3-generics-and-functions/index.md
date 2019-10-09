@@ -2,7 +2,7 @@
 title: 3. Generics & Fucntions
 date: "2016-07-13"
 category: [C++]
-tags: ["c++", "coursera"]
+tags: ["cpp", "coursera"]
 description:
 ---
 

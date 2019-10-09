@@ -2,7 +2,7 @@
 title: 0. Overview
 date: "2016-06-26"
 category: [C++]
-tags: ["c++", "coursera"]
+tags: ["cpp", "coursera"]
 description:
 ---
 
