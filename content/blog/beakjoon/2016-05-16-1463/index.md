@@ -2,7 +2,7 @@
 title: 1463번 1로 만들기
 date: "2016-05-16"
 category: [BOJ]
-tag: [DynamicPrograming,dp, 동적계획법, 다이나믹프로그래밍, 백준온라인저지]
+tags: ["다이나믹 프로그래밍", "백준온라인저지"]
 ---
 
 [1463번 1로 만들기](https://www.acmicpc.net/problem/1463)

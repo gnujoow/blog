@@ -3,7 +3,7 @@ title: script 태그의 async와 defer 속성
 date: "2019-10-05"
 category: [js]
 description: script 태그의 async속성과 defer속성에 대해서 알아보고 script 요소가 렌더링에 미치는 영향에 대해서 간단하게 알아봅니다.
-tag: [javascript]
+tags: ["javascript"]
 ---
 
 일반적으로 `<script>` 요소를 통해서 HTML 파일에 자바스크립트 파일을 포함합니다. `<script>`요소를 이용해 inline으로 자바스크립트를 작성하거나 **src**를 속성에 자바스크립트의 위치를 지정해서 외부 스크립트를 불러올 수 있습니다.

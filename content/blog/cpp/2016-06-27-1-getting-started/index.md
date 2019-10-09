@@ -2,7 +2,7 @@
 title: 1. Converting a C Program to C++
 date: "2016-06-27"
 category: [C++]
-tag: [C++, Coursera]
+tags: ["cpp", "coursera"]
 description: C프로그램을 C++로 변환해보자.
 ---
 
@@ -68,7 +68,7 @@ inline int_rside(){return (rand() % sides + 1);}
 
 C++에는 namespace라는 계념이 추가되었다. 함수의 이름과 매개변수가 같을 경우 에러가 나게되는데 이 경우 두 함수의 namespace를 충돌이 일어나지 않는다.
 
-그리고 `#define SIDES 6` 대신 `const int`라는 키워드를 이용하여 상수를 선언한다. 전처리기 매크로를 이용하여 선언한 C와는 달리 `const int`키워드를 이용하여 선언했기 때문에 상수가 type을 가지게 된다. 따라서 컴파일러가 컴파일 할 때 문법검사를 하게된다. 
+그리고 `#define SIDES 6` 대신 `const int`라는 키워드를 이용하여 상수를 선언한다. 전처리기 매크로를 이용하여 선언한 C와는 달리 `const int`키워드를 이용하여 선언했기 때문에 상수가 type을 가지게 된다. 따라서 컴파일러가 컴파일 할 때 문법검사를 하게된다.
 
 또한 매크로 함수의 경우 `inline` 이라는 키워드를 이용하여 작성한다. 함수 호출의 경우 머신래벨에서 stack에서 함수를 풀러오는 동작은 하게 되고 경우에 따라 a몇 m초가 걸린다. 이 비용을 줄이기 위해 `inline`함수를 사용한다.
 

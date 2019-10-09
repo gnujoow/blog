@@ -2,7 +2,7 @@
 title: 5.Binary Search Tree에 대해서 알아보자.
 date: "2016-09-09"
 category: [DS]
-tag: [DataStructure, BinarySearchTree, 이진탐색트리]
+tags: ["자료구조", "Binary Search Tree", "이진탐색트리"]
 description: 자료구조 이진탐색트리와 그 표현에 대해서 알아보자.
 ---
 
@@ -70,5 +70,5 @@ search 실패시
 
 ## reference
 - [위키피디아 - 이진탐색트리](https://ko.wikipedia.org/wiki/%EC%9D%B4%EC%A7%84_%ED%83%90%EC%83%89_%ED%8A%B8%EB%A6%AC)
-- [wikipedia - BinarySearchTree](https://en.wikipedia.org/wiki/Binary_search_tree)
+- [wikipedia - Binary Search Tree](https://en.wikipedia.org/wiki/Binary_search_tree)
 - [이석호. C++ 자료구조론 (2nd ed.). 인피니티북스.](http://www.yes24.com/24/goods/2656393)

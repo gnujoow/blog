@@ -2,7 +2,7 @@
 title: 8.Bias vs. Variance
 date: "2016-09-01"
 category: [ML]
-tag: [MachineLearning, Underfitting, Overfitting, Bias, Varriance]
+tags: ["Machine Learning", "Underfitting", "Overfitting", "Bias", "Varriance"]
 description: 이번 포스팅에서는 bias와 varriance에 대해서 깊게 알아보고 알고리즘이 bias문제가 있는지 varriance문제가 있는지 평가하는 방법에 대해서 알아본다.
 
 ---

@@ -2,7 +2,7 @@
 title: 4. Graph Theory & Algorithm
 date: "2016-07-14"
 category: [C++]
-tag: [C++, Coursera, Graph, Dijkstra]
+tags: ["cpp", "coursera", "Graph", "Dijkstra"]
 description:
 ---
 

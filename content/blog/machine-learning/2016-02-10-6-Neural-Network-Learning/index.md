@@ -2,7 +2,7 @@
 title: 6.Neural Networks:Learning
 date: "2016-02-10"
 category: [ML]
-tag: [Machine Learning, Neural Networks, backprogagation]
+tags: ["Machine Learning", "Neural Networks", "Backpropagation"]
 description: 신경망 알고리즘은 가장 좋은 학습알고리즘 중 하나이다. 이번 포스팅에서는 주어진 데이터와 변수에 대해 알고리즘을 적용하는 방법을 알아보자.
 ---
 

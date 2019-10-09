@@ -2,7 +2,7 @@
 title: 11403번 경로 찾기
 date: "2016-09-08"
 category: [BOJ]
-tag: [플로이드와샬, floyd-warshall, 백준온라인저지]
+tags: ["플로이드와샬", "floyd-warshall", "백준온라인저지"]
 ---
 
 [11403번 경로 찾기](https://www.acmicpc.net/problem/11403)

@@ -7,7 +7,7 @@ import SEO from "../components/seo"
 export default class BlogList extends React.Component {
   render() {
     const { data } = this.props;
-    const { allMarkdownRemark, site } = data;
+    const { allMarkdownRemark } = data;
     const { pageContext } = this.props;
     const posts = allMarkdownRemark.edges
     const siteTitle = data.site.siteMetadata.title
@@ -45,8 +45,8 @@ export default class BlogList extends React.Component {
                 <Link
                   to={
                     pageContext.currentPage === 2
-                    ? '/blog'
-                    : `/blog/${pageContext.currentPage - 1}`
+                    ? '/'
+                    : `/page/${pageContext.currentPage - 1}`
                   }
                   rel="next"
                 >
@@ -57,7 +57,7 @@ export default class BlogList extends React.Component {
             <li>
               {pageContext.currentPage !== pageContext.numPages && (
                 <Link
-                  to={`/blog/${pageContext.currentPage + 1}`}
+                  to={`/page/${pageContext.currentPage + 1}`}
                   rel="next"
                 >
                   다음 페이지

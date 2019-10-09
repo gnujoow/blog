@@ -2,7 +2,7 @@
 title: 0.What is Machine Learning
 date: "2016-01-26"
 category: [ML]
-tag: [Machine Learning, Supervised Learning, Unsupervised Learning]
+tags: ["Machine Learning", "Supervised Learning", "Unsupervised Learning"]
 description: 머신러닝이란 무엇일까? 머신러닝의 종류와 예를 통해 머신러닝이 무엇인지 알아보자.
 ---
 

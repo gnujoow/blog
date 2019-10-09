@@ -2,7 +2,7 @@
 title: 9507번 Generations of Tribbles
 date: "2017-12-18"
 category: [BOJ]
-tag: [dp, DynamicPrograming, 다이나믹프로그래밍, 백준온라인저지]
+tags: ["다이나믹 프로그래밍", "백준온라인저지"]
 ---
 
 [2178번 Generations of Tribbles](https://www.acmicpc.net/problem/9507)

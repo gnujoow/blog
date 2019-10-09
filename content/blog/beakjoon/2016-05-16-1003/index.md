@@ -2,7 +2,7 @@
 title: 1003번 피보나치 함수
 date: "2016-05-16"
 category: [BOJ]
-tag: [DynamicPrograming,dp, 동적계획법, 다이나믹프로그래밍, 백준온라인저지]
+tags: ["다이나믹 프로그래밍", "백준온라인저지"]
 ---
 
 [1003번 피보나치 함수](https://www.acmicpc.net/problem/1003)

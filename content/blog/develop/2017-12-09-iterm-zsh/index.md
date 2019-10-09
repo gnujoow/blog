@@ -2,8 +2,7 @@
 title: iterm과 zsh를 설치해보자.
 date: "2016-12-09"
 category: [DEV]
-tag: [iterm, zsh]
-thread: [jekyll-tutorial]
+tags: ["iterm", "zsh"]
 description: 터미널을 더 간편하게 사용할 수 있게 도와주는 도구들을 설치해보자.
 ---
 
