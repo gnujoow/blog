@@ -3,7 +3,7 @@ title: ES6 array helper method들을 알아보자
 date: "2016-10-14"
 category: [Dev]
 description: 알아두면 두고두고 편하게 쓸 수 있는 es6의 array helper method들의 사용법에 대해서 알아보자.
-tag: [es6, javascript]
+tags: ["es6", "javascript"]
 ---
 
 이 글은 ES6를 막 공부하기 시작한 사람이 공부한 내용을 정리하고 작성한 글입니다. 따라서 내용이 정확하지 않을 수 있습니다. 글에 오류가 있으면 따끔하게 지적해주세요!

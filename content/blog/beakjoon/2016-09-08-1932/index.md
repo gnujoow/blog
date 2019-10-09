@@ -2,7 +2,7 @@
 title: 1932번 숫자삼각형
 date: "2016-09-08"
 category: [BOJ]
-tag: [DynamicPrograming,dp, 동적계획법, 다이나믹프로그래밍, 백준온라인저지]
+tags: ["다이나믹 프로그래밍", "백준온라인저지"]
 ---
 
 [1932번 숫자삼각형](https://www.acmicpc.net/problem/1932)

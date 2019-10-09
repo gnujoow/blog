@@ -2,7 +2,7 @@
 title: json이란 뭘까
 date: "2016-07-05"
 category: [Dev]
-tag: [json]
+tags: ["json"]
 description:
 ---
 

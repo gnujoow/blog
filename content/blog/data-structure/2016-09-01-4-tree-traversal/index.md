@@ -2,7 +2,7 @@
 title: 4.Binary Tree Traveral에 대해 알아보자
 date: "2016-09-01"
 category: [DS]
-tag: [DataStructure, BinaryTree, 이진트리, TreeTreversal, 트리순회]
+tags: ["자료구조", "Binary Tree", "이진트리", "Tree Treversal", "트리순회"]
 description: 자료구조 이진탐색트리와 그 표현에 대해서 알아보자.
 ---
 
@@ -93,5 +93,5 @@ levelorder(root)
 
 ## reference
 - [위키피디아 - 트리순회](https://ko.wikipedia.org/wiki/%ED%8A%B8%EB%A6%AC_%EC%88%9C%ED%9A%8C)
-- [wikipedia - TreeTreversal](https://en.wikipedia.org/wiki/Tree_traversal)
+- [wikipedia - Tree Treversal](https://en.wikipedia.org/wiki/Tree_traversal)
 - [이석호. C++ 자료구조론 (2nd ed.). 인피니티북스.](http://www.yes24.com/24/goods/2656393)

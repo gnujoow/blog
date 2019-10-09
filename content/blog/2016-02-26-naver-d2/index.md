@@ -2,7 +2,7 @@
 title: naver d2 campus seminar
 date: "2016-02-26"
 category: [Dev]
-tag: [잡담, opensource]
+tags: ["회고", "opensource", "세미나"]
 description: naver d2 campus seminar를 다녀와서 느낀점과 주관적인 세미나 정리 포스팅
 ---
 

@@ -2,7 +2,7 @@
 title: 2193번 이친수
 date: "2016-09-02"
 category: [BOJ]
-tag: [DynamicPrograming,dp, 동적계획법, 다이나믹프로그래밍, 백준온라인저지]
+tags: ["다이나믹 프로그래밍", "백준온라인저지"]
 ---
 
 [2193번 이친수](https://www.acmicpc.net/problem/2193)

@@ -2,3 +2,7 @@ body {
 	background-color: #121212;
 	color: #fff;
 }
+
+.katex-display {
+	overflow-x: auto;
+}

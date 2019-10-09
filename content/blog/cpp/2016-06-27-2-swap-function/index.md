@@ -2,7 +2,7 @@
 title: 2. Swap function in C&C++
 date: "2016-06-27"
 category: [C++]
-tag: [C++, Coursera]
+tags: ["cpp", "coursera"]
 description: swap function을 통해 C와 C++의 차이점을 알아보자.
 ---
 

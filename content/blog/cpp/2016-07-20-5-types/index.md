@@ -2,7 +2,7 @@
 title: 5. Operator overloading
 date: "2016-07-20"
 category: [C++]
-tag: [C++, types, overloading,Operator]
+tags: ["cpp", "types", "overloading", "operator"]
 description:
 ---
 

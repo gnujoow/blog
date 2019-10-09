@@ -2,7 +2,7 @@
 title: 6. Class(0)
 date: "2016-07-22"
 category: [C++]
-tag: [C++, class, struct, widget, overloading, object oriented]
+tags: ["cpp", "class", "struct", "widget", "overloading", "object oriented"]
 description:
 ---
 

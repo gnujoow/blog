@@ -2,7 +2,7 @@
 title: 2.Multivariate Linear Regression
 date: "2016-01-28"
 category: [ML]
-tag: [Machine Learning, Supervised Learning, Linear Regression]
+tags: ["Machine Learning", "Supervised Learning", "Linear Regression"]
 description: 다중선형회귀에 대해서 알아보자.
 ---
 

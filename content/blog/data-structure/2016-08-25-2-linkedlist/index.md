@@ -2,7 +2,7 @@
 title: 2.Linkedlist에 대해서 알아보자.
 date: "2016-08-25"
 category: [DS]
-tag: [DataStructure, Linkedlist, 연결 리스트]
+tags: ["자료구조", "linked list", "연결 리스트"]
 description: 메모리를 효율적으로 사용할 수 있는 Linkedlist에 대해서 알아보자.
 ---
 

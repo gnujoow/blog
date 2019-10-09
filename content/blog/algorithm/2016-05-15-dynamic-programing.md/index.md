@@ -2,7 +2,7 @@
 title: dynamic programming
 date: "2016-05-15"
 category: [BOJ]
-tag: [Algorithm, DynamicPrograming, dp, 다이나믹프로그래밍, 분할정복]
+tags: ["알고리즘", "다이나믹 프로그래밍", "분할정복"]
 description: 다이나믹 프로그래밍에 대해서 알아보자.
 ---
 

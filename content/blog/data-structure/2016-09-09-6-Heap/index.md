@@ -2,7 +2,7 @@
 title: 6.Heap에 대해서 알아보자.
 date: "2016-09-23"
 category: [DS]
-tag: [DataStructure, Heap]
+tags: ["자료구조", "Heap"]
 description: 우선순위 큐를 구현하는데 자주 사용되는 Heap에 대해서 알아보자.
 ---
 

@@ -2,7 +2,7 @@
 title: 5.Neural Networks:Representation
 date: "2016-02-02"
 category: [ML]
-tag: [Machine Learning, Neural Networks]
+tags: ["Machine Learning", "Neural Networks"]
 description: 인공 신경망(artificial neural network)에 대해서 알아보고 표현에 대해서 알아보자.
 ---
 

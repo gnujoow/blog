@@ -3,7 +3,7 @@ title: ReactJS에서 Mocha로 Test해보기
 date: "2016-08-31"
 category: [TIL]
 description: 난생 처음 ReactJS에 Test를 적용해본 경험기
-tag: [ReactJS, ES6, Mocha, Chai, TDD, Test]
+tags: ["ReactJS", "Mocha", "Chai", "TDD", "Test"]
 ---
 
 # 시작하기전 이야기
