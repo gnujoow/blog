@@ -7,7 +7,7 @@ import "./layout.css"
 
 class Layout extends React.Component {
   render() {
-    const { location, title, children } = this.props
+    const { title, children } = this.props
     return (
       <div
         style={{
@@ -31,7 +31,7 @@ class Layout extends React.Component {
                 textDecoration: `none`,
                 color: `inherit`,
               }}
-              to={`/blog`}
+              to={`/`}
             >
               {title}
             </Link>
