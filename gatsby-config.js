@@ -109,8 +109,8 @@ module.exports = {
         minimumThreshold: 0.03,
         // Set Google Analytics jwt with Google Service Account email and private key
         jwt: {
-          client_email: process.env.GOOGLE_SERVICE_ACCOUNT_EMAIL,
-          private_key: process.env.GOOGLE_SERVICE_ACCOUNT_PRIVATE_KEY,
+          client_email: `${process.env.GOOGLE_SERVICE_ACCOUNT_EMAIL}`,
+          private_key: `${process.env.GOOGLE_SERVICE_ACCOUNT_PRIVATE_KEY}`,
         },
         // The "period" for fetching analytic data.
         period: {
