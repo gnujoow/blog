@@ -102,6 +102,24 @@ module.exports = {
       },
     },
     {
+      resolve: "gatsby-plugin-guess-js",
+      options: {
+        // Find the view id in the GA admin in a section labeled "views"
+        GAViewID: `203348185`,
+        minimumThreshold: 0.03,
+        // Set Google Analytics jwt with Google Service Account email and private key
+        jwt: {
+          client_email: process.env.GOOGLE_SERVICE_ACCOUNT_EMAIL,
+          private_key: process.env.GOOGLE_SERVICE_ACCOUNT_PRIVATE_KEY,
+        },
+        // The "period" for fetching analytic data.
+        period: {
+          startDate: new Date("2018-1-1"),
+          endDate: new Date(),
+        },
+      },
+    },
+    {
       resolve: `gatsby-plugin-feed`,
       options: {
         query: `
