@@ -53,7 +53,7 @@ class BlogPostTemplate extends React.Component {
               {post.frontmatter.tags.map(tag => {
                 return (
                   <small key={tag}>
-                    <Link to={`/tags#${kebabCase(tag)}`}>
+                    <Link to={`/tags#${kebabCase(tag)}`} rel='tag'>
                       #{tag}
                     </Link>{" "}
                   </small>
