@@ -44,7 +44,7 @@ Coursera에서 제공하는 [C++ for C programer](https://www.coursera.org/learn
 
 - list directed Graph
 
-```
+```text
 A -> A -> B -> C -> D
 B -> A
 C -> B -> D

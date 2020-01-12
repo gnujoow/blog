@@ -14,7 +14,7 @@ Coursera에서 제공하는 [C++ for C programer](https://www.coursera.org/learn
 우선 우리가 잘 알고 있는 C언어에 대한 복습을 하도록하자.
 
 - **C의 Native 자료형 3가지를 알고있는가?**
-```
+```text
 short, int, double, char, long, long double, int *
 ```
 등등...
