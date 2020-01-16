@@ -1,5 +1,5 @@
 ---
-title: 9507번 Generations of Tribbles
+title: 1010번 다리놓기
 date: "2019-11-11"
 category: [BOJ]
 tags: ["백준온라인저지"]

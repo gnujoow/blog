@@ -5,7 +5,7 @@ category: [BOJ]
 tags: ["다이나믹 프로그래밍", "백준온라인저지"]
 ---
 
-[2178번 Generations of Tribbles](https://www.acmicpc.net/problem/9507)
+[9507번 Generations of Tribbles](https://www.acmicpc.net/problem/9507)
 
 해당문제는 시간 제한이 2초이므로 [다이나믹프로그래밍](/algo/2016/05/15/Algo0-dynamic-programing/)으로 풀어야한다. 완전 탐색으로 풀 경우 시간이 초과된다.
 
