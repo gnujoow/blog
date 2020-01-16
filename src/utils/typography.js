@@ -6,6 +6,7 @@ theme.plugins = [new CodePlugin()]
 theme.overrideThemeStyles = ({ rhythm }, options) => {
   const primaryColor = "#bb86fc"
   const secondaryColor = '#03dac5'
+  const backgroundColor = '#121212'
   return {
     'h1,h2,h3': {
       color: 'rgba(255, 255, 255, 0.87)'
@@ -33,6 +34,12 @@ theme.overrideThemeStyles = ({ rhythm }, options) => {
     },
     'hr': {
       'background-color': secondaryColor,
+    },
+    'table': {
+      'background-color': '#2d2d2d',
+    },
+    'td, th': {
+      'border-bottom': `2px solid ${backgroundColor}`,
     }
   }
 }
