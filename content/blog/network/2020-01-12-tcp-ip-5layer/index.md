@@ -1,5 +1,5 @@
 ---
-title: The TCP/IP 5계층 네트워크 모델에 대해서 알아보자.
+title: TCP/IP 5계층 네트워크 모델에 대해서 알아보자.
 date: "2020-01-12"
 category: [Network]
 tags: ["Network", "TCP/IP"]
