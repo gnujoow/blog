@@ -8,10 +8,13 @@ theme.overrideThemeStyles = ({ rhythm }, options) => {
   const secondaryColor = '#03dac5'
   const backgroundColor = '#121212'
   return {
-    'h1,h2,h3': {
+    'h1,h2,h3,h4': {
       color: 'rgba(255, 255, 255, 0.87)'
     },
     'p': {
+      color: 'rgba(255, 255, 255, 0.60)'
+    },
+    'li': {
       color: 'rgba(255, 255, 255, 0.60)'
     },
     'a': {
