@@ -34,7 +34,7 @@
     "lodash.kebabcase": "^4.1.1",
     "prismjs": "^1.17.1",
     "react": "^16.13.0",
-    "react-dom": "^16.10.0",
+    "react-dom": "^16.13.0",
     "react-facebook": "^8.0.4",
     "react-helmet": "^5.2.1",
     "react-typography": "^0.16.19",
