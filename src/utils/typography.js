@@ -14,6 +14,10 @@ theme.overrideThemeStyles = ({ rhythm }, options) => {
     'p': {
       color: 'rgba(255, 255, 255, 0.60)'
     },
+    '*::selection': {
+      backgroundColor: primaryColor,
+      color: 'white',
+    },
     'li': {
       color: 'rgba(255, 255, 255, 0.60)'
     },
@@ -34,6 +38,7 @@ theme.overrideThemeStyles = ({ rhythm }, options) => {
       background: '#2d2d2d',
       padding: '1rem',
       'border-radius': '3px',
+      'font-style': 'normal',
     },
     'hr': {
       'background-color': secondaryColor,
