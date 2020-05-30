@@ -32,11 +32,11 @@
     "kate": "^0.0.2",
     "katex": "^0.11.1",
     "lodash.kebabcase": "^4.1.1",
-    "prismjs": "^1.17.1",
+    "prismjs": "^1.20.0",
     "react": "^16.13.0",
     "react-dom": "^16.13.0",
     "react-facebook": "^8.0.4",
-    "react-helmet": "^5.2.1",
+    "react-helmet": "^6.0.0",
     "react-typography": "^0.16.19",
     "typeface-merriweather": "0.0.72",
     "typeface-montserrat": "0.0.75",
@@ -45,7 +45,7 @@
     "typography-theme-fairy-gates": "^0.16.19"
   },
   "devDependencies": {
-    "prettier": "^1.18.2"
+    "prettier": "^2.0.0"
   },
   "homepage": "https://github.com/gatsbyjs/gatsby-starter-blog#readme",
   "keywords": [
