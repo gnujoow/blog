@@ -7,12 +7,40 @@ import SEO from "../components/seo"
 class NotFoundPage extends React.Component {
   render() {
     const { data } = this.props
-    const siteTitle = data.site.siteMetadata.title
+    const { title, social } = data.site.siteMetadata
 
     return (
-      <Layout location={this.props.location} title={siteTitle}>
+      <Layout location={this.props.location} title={title}>
         <SEO title="about" />
-        <h1>To be defined</h1>
+        <ul>
+          <li>
+            <a
+              href={`https://twitter.com/${social.twitter}`}
+              target='blank'
+              rel='author'
+            >
+              Twitter
+            </a>
+          </li>
+          <li>
+            <a
+              href={`https://github.com/${social.github}`}
+              target='blank'
+              rel='author'
+            >
+              Github
+            </a>
+          </li>
+          <li>
+            <a
+              href={`https://www.linkedin.com/in/${social.linkedin}`}
+              target='blank'
+              rel='author'
+            >
+              LinkedIn
+            </a>
+          </li>
+        </ul>
       </Layout>
     )
   }
@@ -25,6 +53,11 @@ export const pageQuery = graphql`
     site {
       siteMetadata {
         title
+        social {
+          github
+          twitter
+          linkedin
+        }
       }
     }
   }

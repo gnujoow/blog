@@ -17,7 +17,13 @@ class Layout extends React.Component {
           padding: `${rhythm(1.5)} ${rhythm(3 / 4)}`,
         }}
       >
-        <header>
+        <header
+          style={{
+            display: 'flex',
+            justifyContent: 'space-between',
+            alignItems: 'center',
+          }}
+        >
           <h1
             style={{
               ...scale(1.5),
@@ -36,7 +42,16 @@ class Layout extends React.Component {
               {title}
             </Link>
           </h1>
-        </header>
+          <nav>
+            <Link to={`/tags`}>
+              tags
+            </Link>
+             | 
+            <Link to={`/tags`}>
+              about
+            </Link>
+          </nav>
+        </header> 
         <main>{children}</main>
       </div>
     )

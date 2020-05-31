@@ -7,6 +7,7 @@ module.exports = {
     social: {
       twitter: `gnujoow`,
       github: `gnujoow`,
+      linkedin: 'wjkim90',
     },
   },
   plugins: [
