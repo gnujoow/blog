@@ -34,8 +34,8 @@ o.hasOwnProperty('bar'); // false
 > When the hasOwnProperty method is called with argument V, the following steps are taken:
 >
 > 1. Let P be ? ToPropertyKey(V).
-> 2. Let O be ? ToObject(this value).
-> 3. Return ? HasOwnProperty(O, P).
+> 1. Let O be ? ToObject(this value).
+> 1. Return ? HasOwnProperty(O, P).
 
 ...그리고...
 
@@ -92,7 +92,7 @@ o.hasOwnProperty('bar'); // false
 
 가장 잘 알려진 예외행동을 하는 객체는 **배열(Array)**입니다. length 프로퍼티가 기본값이 아닌 방식으로 작동하기 때문입니다. 배열에서 length 프로퍼티 값을 변경하면 배열에서 요소를 제거할 수 있습니다.
 
-필수 내부 머소드는 [링크](https://tc39.es/ecma262/#table-5)에서 확인할 수 있습니다.
+필수 내부 메소드는 [링크](https://tc39.es/ecma262/#table-5)에서 확인할 수 있습니다.
 
 # 완성 레코드(Completion record)
 
@@ -121,7 +121,7 @@ o.hasOwnProperty('bar'); // false
 [ReturnIfAbrupt(argument)](https://tc39.es/ecma262/#sec-returnifabrupt)는 다음 절차를 밟는것을 의미합니다.
 
 > 1. If argument is abrupt, return argument
-> 2. Set argument to argument.[\[Value\]]
+> 1. Set argument to argument.[\[Value\]]
 
 즉 완성 레코드를 검사합니다. **abrupt completion** 인 경우 즉시 반환합니다. 그렇지 않으면 완성 레코드에서 값을 추출합니다.
 
@@ -177,7 +177,7 @@ o.hasOwnProperty('bar'); // false
 > 1. Let temp be temp.[[Value]].
 > 1. Return NormalCompletion(temp).
 
-여기서 `temp`는 어느것과도 충돌하지 않는 완선 새로운 변수라고 가정하겠습니다.
+여기서 `temp`는 어느것과도 충돌하지 않는 완전 새로운 변수라고 가정하겠습니다.
 
 반환문(return statement)이 완성 레코드가 아닌 다른 것을 반환할 때 `NormalCompletion` 안에 감싸진다는 것을 알고 있습니다.
 
