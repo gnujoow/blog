@@ -47,7 +47,7 @@ class Layout extends React.Component {
               tags
             </Link>
              | 
-            <Link to={`/tags`}>
+            <Link to={`/about`}>
               about
             </Link>
           </nav>
