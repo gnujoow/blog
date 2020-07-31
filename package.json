@@ -43,7 +43,7 @@
     "typography": "^0.16.19",
     "typography-plugin-code": "^0.16.19",
     "typography-theme-fairy-gates": "^0.16.19",
-    "snyk": "^1.339.3"
+    "snyk": "^1.361.3"
   },
   "devDependencies": {
     "prettier": "^2.0.0"
