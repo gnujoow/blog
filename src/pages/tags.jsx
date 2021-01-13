@@ -37,7 +37,6 @@ const TagsPage = ({
             {tag.nodes.map(item => {
               const { slug } = item.fields
               const { title } = item.frontmatter
-              console.table(item);
               return (
                 <li key={slug}>
                   <Link to={slug}>{title}</Link>
