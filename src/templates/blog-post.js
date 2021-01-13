@@ -1,7 +1,7 @@
 import React from "react"
 import { Link, graphql } from "gatsby"
+import { Disqus } from 'gatsby-plugin-disqus';
 import kebabCase from "lodash.kebabcase"
-import { FacebookProvider, Comments } from 'react-facebook';
 
 import Bio from "../components/bio"
 import Layout from "../components/layout"
@@ -29,7 +29,6 @@ class BlogPostTemplate extends React.Component {
           title={post.frontmatter.title}
           description={post.frontmatter.description || post.excerpt}
         />
-        <FacebookProvider appId='531519394274880'>
           <article>
             <header>
               <h1
@@ -83,9 +82,12 @@ class BlogPostTemplate extends React.Component {
               </p>
             </footer>
           </article>
-          <Comments
-            href={`${siteUrl}${slug}`}
-            colorScheme="dark"
+          <Disqus
+            config={{
+              url: `https://kimglog.me${slug}`,
+              identifier: slug,
+              title,
+            }}
           />
           <nav>
             <ul
@@ -113,7 +115,6 @@ class BlogPostTemplate extends React.Component {
               </li>
             </ul>
           </nav>
-        </FacebookProvider>
       </Layout>
     )
   }
