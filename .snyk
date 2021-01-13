@@ -1242,3 +1242,35 @@ patch:
         patched: '2020-10-08T03:12:43.637Z'
     - gatsby > gatsby-cli > gatsby-recipes > yup > lodash:
         patched: '2020-10-08T03:12:43.637Z'
+    - gatsby > babel-preset-gatsby > @babel/preset-env > @babel/preset-modules > @babel/types > lodash:
+        patched: '2021-01-13T15:03:59.447Z'
+    - gatsby > babel-preset-gatsby > @babel/preset-env > @babel/preset-modules > @babel/plugin-transform-dotall-regex > @babel/helper-create-regexp-features-plugin > @babel/helper-regex > lodash:
+        patched: '2021-01-13T15:03:59.447Z'
+    - gatsby > babel-preset-gatsby > @babel/preset-env > @babel/preset-modules > @babel/plugin-transform-dotall-regex > @babel/helper-create-regexp-features-plugin > @babel/helper-annotate-as-pure > @babel/types > lodash:
+        patched: '2021-01-13T15:03:59.447Z'
+    - gatsby > css-loader > lodash:
+        patched: '2021-01-13T15:03:59.447Z'
+    - gatsby > devcert > lodash:
+        patched: '2021-01-13T15:03:59.447Z'
+    - gatsby > eslint > lodash:
+        patched: '2021-01-13T15:03:59.447Z'
+    - gatsby > babel-eslint > @babel/traverse > lodash:
+        patched: '2021-01-13T15:03:59.447Z'
+    - gatsby > eslint > table > lodash:
+        patched: '2021-01-13T15:03:59.447Z'
+    - gatsby > optimize-css-assets-webpack-plugin > last-call-webpack-plugin > lodash:
+        patched: '2021-01-13T15:03:59.447Z'
+    - gatsby > react-dev-utils > inquirer > lodash:
+        patched: '2021-01-13T15:03:59.447Z'
+    - gatsby > webpack-dev-server > http-proxy-middleware > lodash:
+        patched: '2021-01-13T15:03:59.447Z'
+    - gatsby > babel-eslint > @babel/traverse > @babel/generator > lodash:
+        patched: '2021-01-13T15:03:59.447Z'
+    - gatsby > gatsby-cli > gatsby-recipes > contentful-management > lodash:
+        patched: '2021-01-13T15:03:59.447Z'
+    - gatsby > webpack-dev-server > portfinder > async > lodash:
+        patched: '2021-01-13T15:03:59.447Z'
+    - gatsby > babel-eslint > @babel/traverse > @babel/helper-split-export-declaration > @babel/types > lodash:
+        patched: '2021-01-13T15:03:59.447Z'
+    - gatsby > babel-eslint > @babel/traverse > @babel/helper-function-name > @babel/template > @babel/types > lodash:
+        patched: '2021-01-13T15:03:59.447Z'
